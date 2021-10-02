@@ -1,6 +1,6 @@
 clear all, close all, clc
 
-snapshots_root  = '../../../DATA/FLUIDS/cylinder/'; %change to correct address 
+snapshots_root  = '../../../DATA/FLUIDS/airfoil/'; %change to correct address 
 [imax,jmax,x,y] = loadGrid(snapshots_root);
 
 % Third argument is the desired variable
